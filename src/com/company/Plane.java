@@ -1,17 +1,15 @@
 package com.company;
 
-import java.util.Locale;
-
-public class Plain {
+public class Plane {
     private String name;
     private int dateOfCreate; //only year
     private int amountOfWheel;
     private String nameOfPilot;
     private String nameOfCountryOfMade;
 public static class Builder{
-    private Plain newPlain;
+    private Plane newPlain;
 public Builder (){
-newPlain = new Plain();
+newPlain = new Plane();
 }
     public Builder withName(String name){
         newPlain.name = name;
@@ -25,7 +23,7 @@ newPlain = new Plain();
         newPlain.amountOfWheel = amountOfWhell;
         return this;
     }
-    public Builder withNameOfPilot(String nameOfPilot){
+    public Builder withnameofpilot(String nameOfPilot){
         newPlain.nameOfPilot = nameOfPilot;
         return this;
     }
