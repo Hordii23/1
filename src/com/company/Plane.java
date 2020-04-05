@@ -23,7 +23,7 @@ newPlain = new Plane();
         newPlain.amountOfWheel = amountOfWhell;
         return this;
     }
-    public Builder withNameOfPilot(String nameOfPilot){
+    public Builder withnameofpilot(String nameOfPilot){
         newPlain.nameOfPilot = nameOfPilot;
         return this;
     }
